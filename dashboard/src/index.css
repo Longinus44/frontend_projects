@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: aliceblue;
+	padding: 20px;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-weight: 600;
+	padding: 10px;
+	transition: 0.3s ease-in-out;
+	color: gray;
+	border-radius: 10px;
+}
+
+.item:hover {
+	background-color: #27374d;
+	color: aliceblue;
+}

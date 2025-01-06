@@ -1,0 +1,10 @@
+.icon :hover {
+	cursor: pointer;
+	transform: scale(1.3);
+}
+
+.icon {
+	color: gray;
+	font-size: 22px;
+	transition: 0.5s ease-in-out;
+}
